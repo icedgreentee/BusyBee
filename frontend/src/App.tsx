@@ -103,12 +103,12 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-20">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-yellow-500 rounded-2xl flex items-center justify-center shadow-lg floating">
+                <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-2xl flex items-center justify-center shadow-lg floating">
                   <Crown className="w-7 h-7 text-white" />
                 </div>
       <div>
                   <h1 className="text-3xl font-bold golden-text">BusyBee</h1>
-                  <p className="text-sm text-amber-600 font-medium">Your Royal Scheduling Assistant</p>
+                  <p className="text-sm text-yellow-600 font-medium">Your Royal Scheduling Assistant</p>
                 </div>
               </div>
               <button 
@@ -132,17 +132,17 @@ function App() {
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="max-w-4xl mx-auto">
               <div className="mb-8">
-                <div className="w-24 h-24 bg-gradient-to-br from-amber-400 to-yellow-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-2xl floating">
+                <div className="w-24 h-24 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-2xl floating">
                   <Crown className="w-12 h-12 text-white" />
                 </div>
                 <h2 className="text-6xl md:text-7xl font-bold mb-6">
                   <span className="golden-text">Your Royal</span>
                   <br />
-                  <span className="text-amber-600">AI Scheduling</span>
+                  <span className="text-yellow-600">AI Scheduling</span>
                   <br />
                   <span className="golden-text">Consultant</span>
                 </h2>
-                <p className="text-2xl text-amber-700 mb-12 leading-relaxed font-medium">
+                <p className="text-2xl text-yellow-700 mb-12 leading-relaxed font-medium">
                   ✨ Ask BusyBee anything about your schedule ✨<br />
                   From "Can I fit a 6-hour study block?" to "What's the best time to exercise?"<br />
                   Get <span className="font-bold golden-text">magical, personalized</span> recommendations!
@@ -166,7 +166,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h3 className="text-4xl font-bold golden-text mb-4">✨ Magical Features ✨</h3>
-              <p className="text-xl text-amber-700">Everything you need for a perfectly organized royal schedule</p>
+              <p className="text-xl text-yellow-700">Everything you need for a perfectly organized royal schedule</p>
             </div>
             
             <div className="grid md:grid-cols-3 gap-8">
@@ -174,41 +174,41 @@ function App() {
                 <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <Calendar className="w-8 h-8 text-white" />
                 </div>
-                <h4 className="text-2xl font-bold text-amber-800 mb-4">Multi-Calendar Sync</h4>
-                <p className="text-amber-700 leading-relaxed">Connect Google Calendar, Outlook, iCal, and Notion for complete royal visibility across all your kingdoms.</p>
+                <h4 className="text-2xl font-bold text-yellow-800 mb-4">Multi-Calendar Sync</h4>
+                <p className="text-yellow-700 leading-relaxed">Connect Google Calendar, Outlook, iCal, and Notion for complete royal visibility across all your kingdoms.</p>
               </div>
               
               <div className="card-magic text-center group">
-                <div className="w-16 h-16 bg-gradient-to-br from-amber-400 to-yellow-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <Zap className="w-8 h-8 text-white" />
                 </div>
-                <h4 className="text-2xl font-bold text-amber-800 mb-4">AI-Powered Magic</h4>
-                <p className="text-amber-700 leading-relaxed">Get smart recommendations based on your royal patterns and preferences, powered by the finest AI magic.</p>
+                <h4 className="text-2xl font-bold text-yellow-800 mb-4">AI-Powered Magic</h4>
+                <p className="text-yellow-700 leading-relaxed">Get smart recommendations based on your royal patterns and preferences, powered by the finest AI magic.</p>
               </div>
               
               <div className="card-magic text-center group">
                 <div className="w-16 h-16 bg-gradient-to-br from-emerald-400 to-green-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <Shield className="w-8 h-8 text-white" />
                 </div>
-                <h4 className="text-2xl font-bold text-amber-800 mb-4">Royal Privacy</h4>
-                <p className="text-amber-700 leading-relaxed">Your royal calendar data stays secure with OAuth 2.0 and minimal storage - your secrets are safe!</p>
+                <h4 className="text-2xl font-bold text-yellow-800 mb-4">Royal Privacy</h4>
+                <p className="text-yellow-700 leading-relaxed">Your royal calendar data stays secure with OAuth 2.0 and minimal storage - your secrets are safe!</p>
               </div>
             </div>
           </div>
         </section>
 
         {/* Royal Footer */}
-        <footer className="bg-gradient-to-r from-amber-800 to-yellow-800 text-white py-16">
+        <footer className="bg-gradient-to-r from-yellow-800 to-yellow-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <div className="flex items-center justify-center space-x-4 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-yellow-500 rounded-2xl flex items-center justify-center shadow-lg">
+                <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-2xl flex items-center justify-center shadow-lg">
                   <Crown className="w-7 h-7 text-white" />
                 </div>
-                <h3 className="text-3xl font-bold">BusyBee</h3>
+                <h3 className="text-3xl font-bold text-yellow-200">BusyBee</h3>
               </div>
-              <p className="text-amber-200 text-lg mb-8">Your Royal AI Scheduling Assistant</p>
-              <div className="flex justify-center space-x-8 text-amber-200">
+              <p className="text-yellow-200 text-lg mb-8">Your Royal AI Scheduling Assistant</p>
+              <div className="flex justify-center space-x-8 text-yellow-200">
                 <span className="flex items-center space-x-2">
                   <Heart className="w-5 h-5" />
                   <span>Made with Royal Love</span>
@@ -233,23 +233,23 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-yellow-500 rounded-2xl flex items-center justify-center shadow-lg">
+              <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-2xl flex items-center justify-center shadow-lg">
                 <Crown className="w-7 h-7 text-white" />
               </div>
               <div>
                 <h1 className="text-2xl font-bold golden-text">BusyBee</h1>
-                <p className="text-sm text-amber-600">Welcome, {user?.name}! 👑</p>
+                <p className="text-sm text-yellow-600">Welcome, {user?.name}! 👑</p>
               </div>
             </div>
             
             {/* Royal Navigation */}
-            <nav className="flex space-x-2 bg-amber-100/80 backdrop-blur-sm rounded-2xl p-2 border-2 border-amber-200">
+            <nav className="flex space-x-2 bg-yellow-100/80 backdrop-blur-sm rounded-2xl p-2 border-2 border-yellow-200">
               <button
                 onClick={() => setActiveTab('schedule')}
                 className={`px-6 py-3 rounded-xl text-sm font-semibold transition-all duration-300 ${
                   activeTab === 'schedule'
-                    ? 'bg-white text-amber-700 shadow-lg border-2 border-amber-300'
-                    : 'text-amber-600 hover:text-amber-700 hover:bg-white/50'
+                    ? 'bg-white text-yellow-700 shadow-lg border-2 border-yellow-300'
+                    : 'text-yellow-600 hover:text-yellow-700 hover:bg-white/50'
                 }`}
               >
                 ✨ Schedule
@@ -258,8 +258,8 @@ function App() {
                 onClick={() => setActiveTab('calendar')}
                 className={`px-6 py-3 rounded-xl text-sm font-semibold transition-all duration-300 ${
                   activeTab === 'calendar'
-                    ? 'bg-white text-amber-700 shadow-lg border-2 border-amber-300'
-                    : 'text-amber-600 hover:text-amber-700 hover:bg-white/50'
+                    ? 'bg-white text-yellow-700 shadow-lg border-2 border-yellow-300'
+                    : 'text-yellow-600 hover:text-yellow-700 hover:bg-white/50'
                 }`}
               >
                 📅 Calendar
@@ -268,8 +268,8 @@ function App() {
 
             {/* Royal User Menu */}
             <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-3 text-amber-700">
-                <div className="w-8 h-8 bg-gradient-to-br from-amber-400 to-yellow-500 rounded-full flex items-center justify-center">
+              <div className="flex items-center space-x-3 text-yellow-700">
+                <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center">
                   <User className="w-4 h-4 text-white" />
                 </div>
                 <span className="font-medium">{user?.name}</span>
@@ -296,8 +296,8 @@ function App() {
                   <Calendar className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-amber-800">Connected Calendars</h3>
-                  <p className="text-amber-600">Your royal calendar kingdoms</p>
+                  <h3 className="text-2xl font-bold text-yellow-800">Connected Calendars</h3>
+                  <p className="text-yellow-600">Your royal calendar kingdoms</p>
                 </div>
               </div>
               

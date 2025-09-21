@@ -10,7 +10,8 @@
   }
   
   body {
-    @apply bg-gradient-to-br from-amber-50 via-yellow-50 to-orange-50 text-amber-900;
+    background: linear-gradient(135deg, #fef3c7 0%, #fef9c3 50%, #fed7aa 100%);
+    color: #92400e;
     background-attachment: fixed;
   }
   
@@ -21,27 +22,86 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-amber-500 hover:to-yellow-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 border border-amber-300;
+    background: linear-gradient(135deg, #f59e0b 0%, #eab308 100%);
+    color: white;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 9999px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid #f59e0b;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #d97706 0%, #ca8a04 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
   }
   
   .btn-secondary {
-    @apply bg-white/80 backdrop-blur-sm hover:bg-white text-amber-800 font-medium py-2 px-4 rounded-full border-2 border-amber-200 hover:border-amber-300 transition-all duration-300 shadow-md hover:shadow-lg;
+    background: rgba(255, 255, 255, 0.8);
+    color: #92400e;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 9999px;
+    border: 2px solid #fbbf24;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-secondary:hover {
+    background: white;
+    border-color: #f59e0b;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
   
   .btn-magic {
-    @apply bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500 hover:from-amber-400 hover:via-yellow-500 hover:to-amber-600 text-amber-900 font-bold py-3 px-8 rounded-full shadow-2xl hover:shadow-amber-200/50 transform hover:-translate-y-1 transition-all duration-300 border-2 border-amber-200;
+    background: linear-gradient(135deg, #fbbf24 0%, #facc15 50%, #f59e0b 100%);
+    color: #92400e;
+    font-weight: 700;
+    padding: 12px 32px;
+    border-radius: 9999px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+    border: 2px solid #fbbf24;
+  }
+  
+  .btn-magic:hover {
+    background: linear-gradient(135deg, #f59e0b 0%, #eab308 50%, #d97706 100%);
+    transform: translateY(-4px);
+    box-shadow: 0 25px 50px -12px rgba(251, 191, 36, 0.5);
   }
   
   .card {
-    @apply bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl border border-amber-100 p-8 hover:shadow-2xl transition-all duration-300;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border: 1px solid #fef3c7;
+    padding: 32px;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
   }
   
   .card-magic {
-    @apply bg-gradient-to-br from-white/95 to-amber-50/95 backdrop-blur-sm rounded-3xl shadow-2xl border-2 border-amber-200 p-8 hover:shadow-amber-200/30 transition-all duration-500;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(254, 243, 199, 0.95) 100%);
+    border-radius: 24px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border: 2px solid #fbbf24;
+    padding: 32px;
+    transition: all 0.5s ease;
+  }
+  
+  .card-magic:hover {
+    box-shadow: 0 25px 50px -12px rgba(251, 191, 36, 0.3);
   }
   
   .navbar {
-    @apply bg-white/80 backdrop-blur-md border-b-2 border-amber-200 shadow-lg;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 2px solid #fbbf24;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
   
   .bee-pattern {
@@ -52,11 +112,14 @@
   }
   
   .honey-gradient {
-    @apply bg-gradient-to-br from-amber-100 via-yellow-100 to-orange-100;
+    background: linear-gradient(135deg, #fef3c7 0%, #fef9c3 50%, #fed7aa 100%);
   }
   
   .golden-text {
-    @apply bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent;
+    background: linear-gradient(135deg, #d97706 0%, #eab308 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
   
   .sparkle {
@@ -97,10 +160,28 @@
   }
   
   .calendar-item {
-    @apply bg-gradient-to-r from-amber-50 to-yellow-50 border-2 border-amber-200 rounded-xl p-4 hover:border-amber-300 hover:shadow-lg transition-all duration-300;
+    background: linear-gradient(135deg, #fef3c7 0%, #fef9c3 100%);
+    border: 2px solid #fbbf24;
+    border-radius: 12px;
+    padding: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .calendar-item:hover {
+    border-color: #f59e0b;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
   
   .suggestion-card {
-    @apply bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-6 hover:border-green-300 hover:shadow-xl transition-all duration-300;
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border: 2px solid #86efac;
+    border-radius: 16px;
+    padding: 24px;
+    transition: all 0.3s ease;
+  }
+  
+  .suggestion-card:hover {
+    border-color: #4ade80;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
   }
 }
