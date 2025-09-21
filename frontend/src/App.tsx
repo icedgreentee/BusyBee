@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, Zap, Shield, LogIn, User, MessageCircle, Send, Loader, Sparkles, Crown, Star, Heart } from 'lucide-react';
+import { Calendar, Zap, Shield, User, MessageCircle, Send, Loader, Sparkles, Crown, Star, Heart } from 'lucide-react';
 import './App.css';
 
 function App() {
